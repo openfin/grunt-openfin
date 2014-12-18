@@ -36,6 +36,6 @@
   ],
   "dependencies": {
     "openfin-launcher": "^0.0.5",
-    "openfin-config-builder": "^0.0.1"
+    "openfin-config-builder": "^0.0.3"
   }
 }
