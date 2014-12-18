@@ -1,40 +1,41 @@
 {
-    "name": "grunt-openfin",
-    "description": "Grunt plugin for OpenFin applications",
-    "version": "0.0.1",
-    "homepage": "https://github.com/openfin/grunt-openfin",
-    "author": {
-        "name": "Ricardo de pena",
-        "email": "ricardo.depena@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/openfin/grunt-openfin.git"
-    },
-    "bugs": {
-        "url": "https://github.com/openfin/grunt-openfin/issues"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "scripts": {
-        "test": "grunt test"
-    },
-    "devDependencies": {
-        "grunt-contrib-jshint": "^0.9.2",
-        "grunt-contrib-clean": "^0.5.0",
-        "grunt-contrib-nodeunit": "^0.3.3",
-        "grunt": "~0.4.5"
-    },
-    "peerDependencies": {
-        "grunt": "~0.4.5"
-    },
-    "keywords": [
-        "gruntplugin",
-        "openfin"
-    ],
-    "dependencies": {
-        "openfin-launcher": "^0.0.5"
-    }
+  "name": "grunt-openfin",
+  "description": "Grunt plugin for OpenFin applications",
+  "version": "0.1.0",
+  "homepage": "https://github.com/openfin/grunt-openfin",
+  "author": {
+    "name": "Ricardo de pena",
+    "email": "ricardo.depena@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openfin/grunt-openfin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openfin/grunt-openfin/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "openfin"
+  ],
+  "dependencies": {
+    "openfin-launcher": "^0.0.5",
+    "openfin-config-builder": "^0.0.1"
+  }
 }
