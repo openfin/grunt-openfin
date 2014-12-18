@@ -36,7 +36,6 @@ module.exports = function(grunt) {
                 config:{}
             }
         });
-        console.log(options);
         //this task is asynchronous.
         var done = this.async();
         generateConfig(options, function () {
