@@ -28,7 +28,7 @@ function generateConfig (options, callback) {
     }
 }
 module.exports = function(grunt) {
-    grunt.registerTask('openfin', 'OpenFin grunt task', function() {
+    grunt.registerMultiTask('openfin', 'OpenFin grunt task', function() {
         var options = this.options({
             open:true,
             config: {
@@ -36,6 +36,7 @@ module.exports = function(grunt) {
                 config:{}
             }
         });
+        console.log(options);
         //this task is asynchronous.
         var done = this.async();
         generateConfig(options, function () {

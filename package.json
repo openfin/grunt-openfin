@@ -1,7 +1,7 @@
 {
   "name": "grunt-openfin",
   "description": "Grunt plugin for OpenFin applications",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/openfin/grunt-openfin",
   "author": {
     "name": "Ricardo de pena",
@@ -36,6 +36,6 @@
   ],
   "dependencies": {
     "openfin-launcher": "^0.0.5",
-    "openfin-config-builder": "^0.0.1"
+    "openfin-config-builder": "^0.0.3"
   }
 }
