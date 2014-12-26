@@ -1,7 +1,7 @@
 {
   "name": "grunt-openfin",
   "description": "Grunt plugin for OpenFin applications",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/openfin/grunt-openfin",
   "author": {
     "name": "Ricardo de pena",
