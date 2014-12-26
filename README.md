@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/openfin/grunt-openfin.svg?branch=master)](https://travis-ci.org/openfin/grunt-openfin)
+
 # grunt-openfin
 
 Grunt plugin for OpenFin applications
