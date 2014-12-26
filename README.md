@@ -145,3 +145,7 @@ grunt.initConfig({
 grunt.registerTask('serve', ['openfin:serve']);
 grunt.registerTask('build', ['openfin:build']);
 ```
+
+## License
+
+MIT
