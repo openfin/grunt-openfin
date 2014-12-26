@@ -40,7 +40,7 @@ module.exports = function(grunt) {
         var done = this.async();
         generateConfig(options, function () {
             if (options.open) {
-                openfinLauncher.launchOpenFin(options, done);
+                openfinLauncher.launchOpenFin(options).finally(done);
             } else {
                 done();
             }
