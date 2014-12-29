@@ -34,55 +34,6 @@ grunt.initConfig({
 });
 ```
 
-### Options
-
-#### options.open
-Type: `Bool`
-
-Default value: true
-
-Determines if the OpenFin runtime will be launched on start.
-
-#### options.configPath
-Type: `String`
-
-Default value: ''
-
-Examples: 
-```js
-'http://localhost:3000/app.json'
-'file:/C:/helloWorld/app.json'
-```
-
-The location of the config file hosted or the file path.
-
-#### options.config
-Type: `Object`
-
-Default value: {}
-
-This object will be used to construct/update OpenFin application configs.
-
-#### options.config.create
-Type: `Bool`
-
-Default value: false
-
-Determines if the application config file will be created if not present.
-
-#### options.config.filePath
-Type: `String`
-
-Default value: ''
-
-File path location to the application config file.
-
-#### options.config.options
-Type: `object`
-
-Default value: {}
-
-OpenFin Application Configuration object as described in the [OpenFin config file API docs.](http://openfin.co/developers.html?url=developers/api/config/overview.html)
 
 ### Usage Examples
 
@@ -147,6 +98,56 @@ grunt.initConfig({
 grunt.registerTask('serve', ['openfin:serve']);
 grunt.registerTask('build', ['openfin:build']);
 ```
+
+### Options
+
+#### options.open
+Type: `Bool`
+
+Default value: true
+
+Determines if the OpenFin runtime will be launched on start.
+
+#### options.configPath
+Type: `String`
+
+Default value: ''
+
+Examples: 
+```js
+'http://localhost:3000/app.json'
+'file:/C:/helloWorld/app.json'
+```
+
+The location of the config file hosted or the file path.
+
+#### options.config
+Type: `Object`
+
+Default value: {}
+
+This object will be used to construct/update OpenFin application configs.
+
+#### options.config.create
+Type: `Bool`
+
+Default value: false
+
+Determines if the application config file will be created if not present.
+
+#### options.config.filePath
+Type: `String`
+
+Default value: ''
+
+File path location to the application config file.
+
+#### options.config.options
+Type: `object`
+
+Default value: {}
+
+OpenFin Application Configuration object as described in the [OpenFin config file API docs.](http://openfin.co/developers.html?url=developers/api/config/overview.html)
 
 ## License
 
