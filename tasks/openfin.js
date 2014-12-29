@@ -2,10 +2,10 @@
 
 var openfinLauncher = require('openfin-launcher'),
     openfinConfigBuilder = require('openfin-config-builder'),
-    fs  = require('fs'),
+    fs = require('fs'),
     path = require('path');
 
-function generateConfig (options, callback) {
+function generateConfig(options, callback) {
     var configOptions = options.config.options,
         filePath = options.config.filePath,
         configTarget;
@@ -16,29 +16,29 @@ function generateConfig (options, callback) {
     }
     configTarget = path.resolve(options.config.filePath);
     if (options.config.create) {
-        fs.exists(configTarget, function (exists) {
+        fs.exists(configTarget, function(exists) {
             if (exists) {
                 openfinConfigBuilder.update(configOptions, filePath).then(callback);
             } else {
                 openfinConfigBuilder.create(configOptions, filePath).then(callback);
             }
         });
-    } else if(configOptions){
+    } else if (configOptions) {
         openfinConfigBuilder.update(configOptions, filePath).then(callback);
     }
 }
 module.exports = function(grunt) {
     grunt.registerMultiTask('openfin', 'OpenFin grunt task', function() {
         var options = this.options({
-            open:true,
+            open: true,
             config: {
                 create: false,
-                config:{}
+                config: {}
             }
         });
         //this task is asynchronous.
         var done = this.async();
-        generateConfig(options, function () {
+        generateConfig(options, function() {
             if (options.open) {
                 openfinLauncher.launchOpenFin(options).finally(done);
             } else {
