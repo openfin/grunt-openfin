@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/openfin/grunt-openfin.svg?branch=master)](https://travis-ci.org/openfin/grunt-openfin)
-
 # grunt-openfin
 
-Grunt plugin for OpenFin applications
+[![Build Status](https://travis-ci.org/openfin/grunt-openfin.svg?branch=master)](https://travis-ci.org/openfin/grunt-openfin)
+
+Download and launch the OpenFin Runtime, create and update OpenFin application config files.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
