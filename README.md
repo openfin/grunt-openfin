@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/openfin/grunt-openfin.svg?branch=master)](https://travis-ci.org/openfin/grunt-openfin)
 
-Download and launch the OpenFin Runtime, create and update OpenFin application config files.
+You will be able to configure and install specific versions of the OpenFin Runtime and change application configuration details.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
