@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6.9.2"
   },
   "scripts": {
     "test": "grunt"
