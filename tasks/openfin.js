@@ -31,6 +31,7 @@ module.exports = function(grunt) {
     grunt.registerMultiTask('openfin', 'OpenFin grunt task', function() {
         var options = this.options({
             open: true,
+            noAttach: true,
             config: {
                 create: false,
                 config: {}
