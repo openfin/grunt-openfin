@@ -152,3 +152,5 @@ OpenFin Application Configuration object as described in the [OpenFin config fil
 ## License
 
 MIT
+
+By downloading OpenFin, you agree to the terms of our [Developer License](https://openfin.co/developer-agreement/)
