@@ -1,3 +1,6 @@
+# Deprecated!
+This library has been deprecated, please use the `launch` functionallity in the [js-adapter](https://github.com/hadoukenio/js-adapter) library.
+
 # grunt-openfin
 
 [![Build Status](https://travis-ci.org/openfin/grunt-openfin.svg?branch=master)](https://travis-ci.org/openfin/grunt-openfin)
